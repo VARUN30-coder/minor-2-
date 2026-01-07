@@ -85,6 +85,18 @@ Initially, every position is blank " " and later replaced with appropriate chara
 
 For each row, logical conditions are used
 
+if row == 0:
+   # print top structure
+
+if row == 1:
+   # next row details
+
+.
+.
+if row == 32:
+   # bottom structure
+
+
 Inside every row, columns are checked using:
 
 Exact column values
@@ -94,5 +106,23 @@ Column ranges
 Multiple character conditions
 
 Characters like: *  #  %  +  -  =  :  @
+
+Challenges Faced
+
+While building this project, I faced challenges like:
+
+Maintaining exact alignment
+
+Handling many conditions without confusion
+
+Understanding coordinates properly
+
+This project helped me gain:
+
+Stronger understanding of loops
+
+Better control over conditional logic
+
+Coordinate-based thinking ability
 
 
